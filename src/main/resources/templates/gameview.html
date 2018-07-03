@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Complete!!!</title>
+</head>
+<body>
+	<p>Input your hand:</p><br>
+	<form method="post" action="/game">
+		<input type="text" name="name" th:value="${msg}"/>
+		<input type="submit" value="Click" />
+	</form>
+
+	<p th:text="${resultmsg}">madayo</p>
+</body>
+</html>
