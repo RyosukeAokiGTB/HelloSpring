@@ -77,7 +77,7 @@ public class HelloController {
         }
 
     	Random rand = new Random();
-        int cpuhand = rand.nextInt(2);
+        int cpuhand = rand.nextInt(3);
         int result = (numHand - cpuhand + 3) % 3;
 
         return result;
