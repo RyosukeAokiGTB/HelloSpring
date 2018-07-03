@@ -30,7 +30,6 @@ public class HelloController {
     @RequestMapping(value="/game", method=RequestMethod.GET)
     public ModelAndView game(ModelAndView mav) {
         mav.setViewName("gameview");
-        mav.addObject("msg", "input your hand:");    // 表示メッセージ
         return mav;
     }
 
